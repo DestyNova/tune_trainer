@@ -71,7 +71,7 @@ void draw() {
 
     // keep track of previous bar
     lastBar = bar;
-    // seek current bar forward, skipping empty ones
+    // seek to the next bar, skipping empty ones
     do {
       bar++;
     } while(bar < bars.length && bars[bar].trim().equals("")); 
@@ -79,20 +79,6 @@ void draw() {
   
   if(IS_RENDER)
     saveFrame("frames/####.png");
-}
-
-class Pos {
-  int x;
-  int y;
-  
-  public Pos(int x, int y) {
-    this.x = x;
-    this.y = y;
-  }
-  
-  public String toString() {
-    return "(x: " + x + ", y: " + y + ")";
-  }
 }
 
 Pos getBarPosition(int n) {
@@ -120,7 +106,7 @@ void drawBarLines() {
 
 void drawBar(int r, int g, int b, int a, int bar, Pos pos) {
     fill(r, g, b, a);
-    text(bars[bar], pos.x, pos.y);
+    text(bars[bar].trim(), pos.x, pos.y);
 }
 
 void readSong(String path) {
@@ -141,4 +127,18 @@ void readSong(String path) {
 // restart when key pressed
 void keyPressed() {
   setup();
+}
+
+class Pos {
+  int x;
+  int y;
+  
+  public Pos(int x, int y) {
+    this.x = x;
+    this.y = y;
+  }
+  
+  public String toString() {
+    return "(x: " + x + ", y: " + y + ")";
+  }
 }
