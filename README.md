@@ -10,7 +10,8 @@ To try to fix that (or, possibly, as a diversion to avoid addressing my issues w
 
 ## Features
 
-This first version is really barebones and overly-specialised. It shows one bar at a time, moving to the next bar every 5 seconds. The tune filename to read, and the fade / tempo timings are specified in the Processing sketch. The only interactive part is that hitting any key restarts from the beginning of the tune. At the end, the whole tune is displayed.
+This first version is really barebones and overly-specialised. It shows one bar at a time, moving to the next bar every 5 seconds. The fade / tempo timings are specified in the Processing sketch. At the end, the whole tune is displayed, or you can reveal the tune at any time by pressing the `enter` key.
+The tunes are read from files in the sketch's `data` directory, and you can move to the next or previous tune by pressing `n` or `p`, respectively. `Esc` or `q` exits the program.
 
 There's also some code for rendering video frames which I might use to share output on YouTube.
 

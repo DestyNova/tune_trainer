@@ -1,0 +1,10 @@
+The Tulla Reel
+|D'-AD' BD'AB|D'-F'D' E'D'BC
+|D'-AD' BD'AD'|BCD' E'F' G'E'F'E'
+|D'-AD' BD'AB|D'-F'D' E'D'BC
+|D'AAD' BAFA|BCD' E'F' G'-F'G'
+|A'F'F'F' DF'F'F'|A'F'F'F' G'E'CE'
+|A'F'F'F' D'F'E'D'|BCD' E'F' G'E'F'G'
+|A'F'F'F' DF'F'F'|A'F'D'F' G'E'CE'
+|A'F'F'F' D'F'E'D'|BCD' E'F' G'A'F'E'
+|D'-D'A BDAB

@@ -1,0 +1,9 @@
+Maud Millar's (key: G)
+G'F'|E'D'BA GEDE|G-BG DGBD'
+    |E'BD'B ABGA|BE'E'D' E'F'G'F'
+    |E'D'BA GEDE|G-BG DGBG'
+    |E'D'B ABGA|BE'E'D' E'-
+    |D'E'G'A' B'G'G'-|A'G'E'F' G'-G'E'
+    |D'E'G'A' B'G'G'B'|A'G'E'D' E'A'G'E'
+    |D'E'G'A' B'G'G'B'|A'G'E'F' G'-G'A'
+    |B'G'A'F' G'F'E'D'|B'E'E'D' E'F'G'F'

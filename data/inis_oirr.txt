@@ -4,7 +4,7 @@ D-  |B- BA BD'|B- BA BD'
     |B- BA BD'|B- BA BD'
     |G- GB AGF|G-
 ABD'|E'- E'F' E'D'|B- BA BD'
-    |E'F' E'D' BCD'|E- ED BD'
+    |E'F' E'D' BCD'|E'- E'D' BD'
     |E'- E'F' E'D'|B- BA BD'
     |G- GB AGF|G- GA BD'
     |E'- E'F' E'D'|B- BA BD'

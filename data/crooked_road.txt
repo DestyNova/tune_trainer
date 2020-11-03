@@ -1,0 +1,9 @@
+The Crooked Road (key: G)
+|G- AG FG AF|G- FG AD' CA
+|G- AG FG AG'|F'D' CA D'B CA
+|GB AG FG AG'|F'D' CA D' BC
+|DG' G'/- F'G' A'F'|D'G' G'/- A'F' G'E'
+|DG' G'/- F'G' A'G'|F'D' CA D'- BC
+|DG' G'/- F'G' A'F'|D'G' G'/- A'- G'A'
+|B'G' A'F' G'B' A'G'|F'D' CA D'B CA
+|G
