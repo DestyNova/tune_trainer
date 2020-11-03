@@ -18,6 +18,7 @@ int bar;
 void setup() {
   //print(join(PFont.list(), "\n"));
   size(960, 540, P2D);
+  frame.setTitle("Tune trainer");
   frameRate(30);
   titleFont = createFont("DejaVu Serif Italic", 40, true);
   font = createFont("DejaVu Serif", 36, true);
