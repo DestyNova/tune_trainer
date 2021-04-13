@@ -146,8 +146,30 @@ void keyPressed() {
     exit();
   else if (key == ENTER) {
     bar = bars.length;
+  } else if (key == 'o') {
+    selectInput("Select a file:", "fileSelected", new File(sketchPath() + "/data/_"));
   } else
     reset();
+}
+
+void fileSelected(File selection) {
+  if (selection == null) {
+    println("Window was closed or the user hit cancel.");
+  } else {
+    goToFile(selection.getName());
+  }
+}
+
+void goToFile(String p) {
+  for(int i = 0; i < songFiles.length; i++) {
+    println("Checking " + songFiles[i] + " against input path " + p);
+    if(songFiles[i].equals(p)) {
+      println("Match at index i");
+      songIndex = i;
+      reset();
+      return;
+    }
+  }
 }
 
 class Pos {
