@@ -147,6 +147,7 @@ void keyPressed() {
   else if (key == ENTER) {
     bar = bars.length;
   } else if (key == 'o') {
+    // the fake _ filename seems needed to open the file selector in that directory. Couldn't find Processing docs that would show a better way.
     selectInput("Select a file:", "fileSelected", new File(sketchPath() + "/data/_"));
   } else
     reset();
