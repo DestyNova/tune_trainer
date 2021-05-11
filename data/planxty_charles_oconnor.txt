@@ -1,0 +1,11 @@
+Charles O'Connor
+  |D'-A D'-A|BAG FGA
+  |BCD' E'CA|D'F'A' A'-G'
+  |F'-F' BCD'|E'F'E' ABC
+  |D'CB AFA|D'-- D'
+CB|A-D FED|BGB AFA
+  |D-A FDA|GBE' C-A
+  |F'A'F' F'A'F'|F'A'F' F'D'B
+  |E'-E' E'F'E'|E'F'E' E'CA
+  |D'CB AFE|FAD' F'-E'
+  |D'CB AFA|D'-- D'

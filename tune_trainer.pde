@@ -2,7 +2,7 @@ boolean IS_RENDER = false;  // show all bars at the end if outputting for video
 int X_OFFSET = 150;
 int Y_OFFSET = 100;
 long FADE_DURATION = 500;
-long BAR_DURATION = 6000;
+long BAR_DURATION = 5000;
 
 String[] songFiles;
 int songIndex = 0;
@@ -29,7 +29,7 @@ void setup() {
 }
 
 void reset() {
-  timerLast = millis() + BAR_DURATION / 2;
+  timerLast = millis();
   lastBar = -1;
   bar = 0;
   readSong(songFiles[songIndex]);
