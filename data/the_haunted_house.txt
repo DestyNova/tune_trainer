@@ -1,0 +1,9 @@
+The Haunted House
+ |GFG AGA|BGE EDE
+ |GBD' E'-D'|E'G'E' E'D'B
+ |GFG AGA|BGE EDE
+ |GBD' E'-E'|D'BA G-
+D|GBD' E'-D'|E'G'E' E'D'B
+ |GAB D'-B|D'E'D' D'BA
+ |GBD' E'-D'|E'G'E' E'D'B
+ |GBD' E'G'E'|D'BA G-

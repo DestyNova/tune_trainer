@@ -14,18 +14,17 @@ long timerLast;
 
 int lastBar;
 int bar;
+int barsPerLine;
 
 void setup() {
-  //print(join(PFont.list(), "\n"));
   size(960, 540, P2D);
   frame.setTitle("Tune trainer");
   frameRate(30);
   titleFont = createFont("DejaVu Serif Italic", 40, true);
-  font = createFont("DejaVu Serif", 36, true);
+  font = createFont("DejaVu Serif", 32, true);
   textAlign(CENTER, TOP);
 
   songFiles = new File(sketchPath() + "/data").list();
-
   reset();
 }
 
@@ -47,7 +46,7 @@ void draw() {
   text(title, width/2, 20);
 
   textFont(font);
-  textSize(36);
+  textSize(32);
 
   // update fade
   int fade = round(min(255, 255.0 * (t - timerLast) / FADE_DURATION));
@@ -95,21 +94,23 @@ Pos getBarPosition(int n) {
 
   int x = 0;
 
-  if (n % 3 == 0)
+  if (n % (barsPerLine+1) == 0)
     x = X_OFFSET / 2;
   else
-    x = X_OFFSET + (n % 3 * 2 - 1) * (width-X_OFFSET)/4;
+    x = X_OFFSET + (n % (barsPerLine+1) * 2 - 1) * (width-X_OFFSET)/(barsPerLine*2);
 
-  return new Pos(x, Y_OFFSET + n / 3 * height / 16);
+  return new Pos(x, Y_OFFSET + n / (barsPerLine+1) * height / 16);
 }
 
 void drawBarLines() {
   fill(0);
   int x = X_OFFSET;
-  int x2 = X_OFFSET + (width - X_OFFSET) / 2;
-
   line(x, Y_OFFSET, x, height - 10);
-  line(x2, Y_OFFSET, x2, height - 10);
+  
+  for(int i = 1; i <= barsPerLine - 1; i++) {
+    int x2 = X_OFFSET + (width - X_OFFSET) * i / barsPerLine;
+    line(x2, Y_OFFSET, x2, height - 10);
+  }
 }
 
 void drawBar(int r, int g, int b, int a, int bar, Pos pos) {
@@ -120,7 +121,9 @@ void drawBar(int r, int g, int b, int a, int bar, Pos pos) {
 void readSong(String path) {
   String[] lines = loadStrings(path);
   title = lines[0];
-
+  barsPerLine = split(lines[1], "|").length - 1;
+  println("Bars per line: " + barsPerLine);
+  
   // this would be easier with a functional language, but...
   StringBuilder sb = new StringBuilder();
 
