@@ -1,3 +1,5 @@
+// keys: n = next tune, p = previous tune, o = open file chooser, enter = go to end of tune, q = quit, anything else = restart tune
+
 boolean IS_RENDER = false;  // show all bars at the end if outputting for video
 int X_OFFSET = 150;
 int Y_OFFSET = 100;
