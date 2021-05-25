@@ -19,7 +19,7 @@ int bar;
 int barsPerLine;
 
 void setup() {
-  size(960, 540, P2D);
+  size(960, 540);
   frame.setTitle("Tune trainer");
   frameRate(30);
   titleFont = createFont("DejaVu Serif Italic", 40, true);

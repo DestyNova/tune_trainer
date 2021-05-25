@@ -1,8 +1,9 @@
-|dg ga|b g g|a g a|f'- g' a'f'
-|g' d' d'e'|d' c a|g -b ag|f -a gf
-|d g ga|b g g|a g a|f' -g' a'f'
-|g -f' d'b|c a d'|g -b af|g - -
-|g' d' g'f'|g' a' g'|f' d' e'|f' -g' a'f'
-|g' d' d'e'|d' c a|g -b ag|f - g'f'
-|g' d' g'f'|g' a' g'|f' d' e'|f' -g' a'f'
-|g' f' d'b|c a d'|g -b af|g - -
+The trip we took over the mountain
+|DG GA|B G G|A G A|F'- G' A'F'
+|G' D' D'E'|D' C A|G -B AG|F -A GF
+|D G GA|B G G|A G A|F' -G' A'F'
+|G -F' D'B|C A D'|G -B AF|G - -
+|G' D' G'F'|G' A' G'|F' D' E'|F' -G' A'F'
+|G' D' D'E'|D' C A|G -B AG|F - G'F'
+|G' D' G'F'|G' A' G'|F' D' E'|F' -G' A'F'
+|G' F' D'B|C A D'|G -B AF|G - -
