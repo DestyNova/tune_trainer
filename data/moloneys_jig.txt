@@ -1,0 +1,9 @@
+Moloney's Jig (key: D)
+ |BAF AFD|FEF DFA
+ |BAF AFD|FEE E_A
+ |B-B AFD|FEF DFA
+ |D'CB AFE|FDD D-
+A|DEF D'-B|AFA AFA
+ |DE'F' D'-F'|E'D'E' FDB
+ |D'E'F' E'D'B|AFA ABC
+ |D'CB AFE|FDD D-
