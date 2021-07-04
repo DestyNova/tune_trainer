@@ -19,11 +19,11 @@ int bar;
 int barsPerLine;
 
 void setup() {
-  size(960, 540);
-  frame.setTitle("Tune trainer");
+  size(1320, 640);
+  surface.setTitle("Tune trainer");
   frameRate(30);
   titleFont = createFont("DejaVu Serif Italic", 40, true);
-  font = createFont("DejaVu Serif", 32, true);
+  font = createFont("DejaVu Serif", 28, true);
   textAlign(CENTER, TOP);
 
   songFiles = new File(sketchPath() + "/data").list();
